@@ -1,64 +1,45 @@
 # Auto-GPT: An Autonomous GPT-4 Experiment
-### 🔴 🔴 🔴  Urgent: USE `stable` not `master`  🔴 🔴 🔴
-We've improved our workflow. `master` will often be **in a broken state**.
-Download the latest `stable` release here: https://github.com/Torantulino/Auto-GPT/releases/latest
-This information SUPERCEDES any following information. Takes precedence. Do this not that.
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Torantulino/auto-gpt?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/siggravitas?style=social)](https://twitter.com/SigGravitas)
 [![Discord Follow](https://dcbadge.vercel.app/api/server/autogpt?style=flat)](https://discord.gg/autogpt)
 [![Unit Tests](https://github.com/Torantulino/Auto-GPT/actions/workflows/ci.yml/badge.svg)](https://github.com/Torantulino/Auto-GPT/actions/workflows/ci.yml)
 
-Auto-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. This program, driven by GPT-4, chains together LLM "thoughts", to autonomously achieve whatever goal you set. As one of the first examples of GPT-4 running fully autonomously, Auto-GPT pushes the boundaries of what is possible with AI.
+Auto-GPT 是一个实验性开源应用程序，展示了 GPT-4 语言模型的功能。该程序由 GPT-4 驱动，将 LLM 的“思想”链接在一起，以自主实现您设定的任何目标。作为 GPT-4 完全自主运行的首批示例之一，Auto-GPT 突破了 AI 的可能性界限。
 
 ### Demo (30/03/2023):
 
 https://user-images.githubusercontent.com/22963551/228855501-2f5777cf-755b-4407-a643-c7299e5b6419.mp4
 
 <h2 align="center"> 💖 Help Fund Auto-GPT's Development 💖</h2>
-<p align="center">
-If you can spare a coffee, you can help to cover the API costs of developing Auto-GPT and help push the boundaries of fully autonomous AI!
-A full day of development can easily cost as much as $20 in API costs, which for a free project is quite limiting.
-Your support is greatly appreciated
-</p>
 
-<p align="center">
- Development of this free, open-source project is made possible by all the <a href="https://github.com/Torantulino/Auto-GPT/graphs/contributors">contributors</a> and <a href="https://github.com/sponsors/Torantulino">sponsors</a>. If you'd like to sponsor this project and have your avatar or company logo appear below <a href="https://github.com/sponsors/Torantulino">click here</a>.
-
-<h3 align="center">Individual Sponsors</h3>
-<p align="center">
-<a href="https://github.com/robinicus"><img src="https://github.com/robinicus.png" width="50px" alt="robinicus" /></a>&nbsp;&nbsp;<a href="https://github.com/prompthero"><img src="https://github.com/prompthero.png" width="50px" alt="prompthero" /></a>&nbsp;&nbsp;<a href="https://github.com/crizzler"><img src="https://github.com/crizzler.png" width="50px" alt="crizzler" /></a>&nbsp;&nbsp;<a href="https://github.com/tob-le-rone"><img src="https://github.com/tob-le-rone.png" width="50px" alt="tob-le-rone" /></a>&nbsp;&nbsp;<a href="https://github.com/FSTatSBS"><img src="https://github.com/FSTatSBS.png" width="50px" alt="FSTatSBS" /></a>&nbsp;&nbsp;<a href="https://github.com/toverly1"><img src="https://github.com/toverly1.png" width="50px" alt="toverly1" /></a>&nbsp;&nbsp;<a href="https://github.com/ddtarazona"><img src="https://github.com/ddtarazona.png" width="50px" alt="ddtarazona" /></a>&nbsp;&nbsp;<a href="https://github.com/Nalhos"><img src="https://github.com/Nalhos.png" width="50px" alt="Nalhos" /></a>&nbsp;&nbsp;<a href="https://github.com/Kazamario"><img src="https://github.com/Kazamario.png" width="50px" alt="Kazamario" /></a>&nbsp;&nbsp;<a href="https://github.com/pingbotan"><img src="https://github.com/pingbotan.png" width="50px" alt="pingbotan" /></a>&nbsp;&nbsp;<a href="https://github.com/indoor47"><img src="https://github.com/indoor47.png" width="50px" alt="indoor47" /></a>&nbsp;&nbsp;<a href="https://github.com/AuroraHolding"><img src="https://github.com/AuroraHolding.png" width="50px" alt="AuroraHolding" /></a>&nbsp;&nbsp;<a href="https://github.com/kreativai"><img src="https://github.com/kreativai.png" width="50px" alt="kreativai" /></a>&nbsp;&nbsp;<a href="https://github.com/hunteraraujo"><img src="https://github.com/hunteraraujo.png" width="50px" alt="hunteraraujo" /></a>&nbsp;&nbsp;<a href="https://github.com/Explorergt92"><img src="https://github.com/Explorergt92.png" width="50px" alt="Explorergt92" /></a>&nbsp;&nbsp;<a href="https://github.com/judegomila"><img src="https://github.com/judegomila.png" width="50px" alt="judegomila" /></a>&nbsp;&nbsp;
-<a href="https://github.com/thepok"><img src="https://github.com/thepok.png" width="50px" alt="thepok" /></a>
-&nbsp;&nbsp;<a href="https://github.com/SpacingLily"><img src="https://github.com/SpacingLily.png" width="50px" alt="SpacingLily" /></a>&nbsp;&nbsp;<a href="https://github.com/merwanehamadi"><img src="https://github.com/merwanehamadi.png" width="50px" alt="merwanehamadi" /></a>&nbsp;&nbsp;<a href="https://github.com/m"><img src="https://github.com/m.png" width="50px" alt="m" /></a>&nbsp;&nbsp;<a href="https://github.com/zkonduit"><img src="https://github.com/zkonduit.png" width="50px" alt="zkonduit" /></a>&nbsp;&nbsp;<a href="https://github.com/maxxflyer"><img src="https://github.com/maxxflyer.png" width="50px" alt="maxxflyer" /></a>&nbsp;&nbsp;<a href="https://github.com/tekelsey"><img src="https://github.com/tekelsey.png" width="50px" alt="tekelsey" /></a>&nbsp;&nbsp;<a href="https://github.com/digisomni"><img src="https://github.com/digisomni.png" width="50px" alt="digisomni" /></a>&nbsp;&nbsp;<a href="https://github.com/nocodeclarity"><img src="https://github.com/nocodeclarity.png" width="50px" alt="nocodeclarity" /></a>&nbsp;&nbsp;<a href="https://github.com/tjarmain"><img src="https://github.com/tjarmain.png" width="50px" alt="tjarmain" /></a>
-</p>
 
 ## Table of Contents
 
-- [Auto-GPT: An Autonomous GPT-4 Experiment](#auto-gpt-an-autonomous-gpt-4-experiment)
-  - [Demo (30/03/2023):](#demo-30032023)
-  - [Table of Contents](#table-of-contents)
-  - [🚀 Features](#-features)
-  - [📋 Requirements](#-requirements)
-  - [💾 Installation](#-installation)
-  - [🔧 Usage](#-usage)
-    - [Logs](#logs)
-  - [🗣️ Speech Mode](#️-speech-mode)
-  - [🔍 Google API Keys Configuration](#-google-api-keys-configuration)
-    - [Setting up environment variables](#setting-up-environment-variables)
-  - [Redis Setup](#redis-setup)
-  - [🌲 Pinecone API Key Setup](#-pinecone-api-key-setup)
-    - [Setting up environment variables](#setting-up-environment-variables-1)
-  - [Setting Your Cache Type](#setting-your-cache-type)
-  - [View Memory Usage](#view-memory-usage)
-  - [🧠 Memory pre-seeding](#memory-pre-seeding)
-  - [💀 Continuous Mode ⚠️](#-continuous-mode-️)
-  - [GPT3.5 ONLY Mode](#gpt35-only-mode)
-  - [🖼 Image Generation](#-image-generation)
-  - [⚠️ Limitations](#️-limitations)
-  - [🛡 Disclaimer](#-disclaimer)
-  - [🐦 Connect with Us on Twitter](#-connect-with-us-on-twitter)
-  - [Run tests](#run-tests)
-  - [Run linter](#run-linter)
+- [Auto-GPT：自主 GPT-4 实验](#Auto-GPT：自主 GPT-4 实验)
+  - [演示 (30/03/2023)：](#demo-30032023)
+  - [目录](#table-of-contents)
+  - [🚀 特征](#-features)
+  - [📋 要求](#-requirements)
+  - [💾 安装](#-installation)
+  - [🔧 用法](#-用法)
+    - [日志](#logs)
+  - [🗣️ 语音模式](#️-speech-mode)
+  - [🔍 谷歌 API 密钥配置](#-google-api-keys-configuration)
+    - [设置环境变量](#setting-up-environment-variables)
+  - [设置](#redis-setup)
+  - [🌲Pinecone API 密钥设置](#-pinecone-api-key-setup)
+    - [设置环境变量](#setting-up-environment-variables-1)
+  - [设置缓存类型](#setting-your-cache-type)
+  - [查看内存使用情况](#view-memory-usage)
+  - [💀 连续模式 ⚠️](#-continuous-mode-️)
+  - [GPT3.5 ONLY 模式](#gpt35-only-mode)
+  - [🖼 图像生成](#-image-generation)
+  - [⚠️ 限制](#️-limitations)
+  - [🛡 免责声明](#-disclaimer)
+  - [🐦 在 Twitter 上与我们联系](#-connect-with-us-on-twitter)
+  - [运行测试](#run-tests)
+  - [运行 linter](#run-linter)
 
 ## 🚀 Features
 
