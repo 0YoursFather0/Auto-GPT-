@@ -11,8 +11,7 @@ Auto-GPT 是一个实验性开源应用程序，展示了 GPT-4 语言模型的�
 
 https://user-images.githubusercontent.com/22963551/228855501-2f5777cf-755b-4407-a643-c7299e5b6419.mp4
 
-<h2 align="center"> 💖 获取openai key 💖</h2>
-- [OpenAI API key](https://www.yishengfk.cn/links/BBDA00A8)
+<h2 align="center"> 💖 [获取openai key](https://www.yishengfk.cn/links/BBDA00A8) 💖</h2>
 
 
 
