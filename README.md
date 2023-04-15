@@ -91,7 +91,7 @@ pip install -r requirements.txt
 ```
 
 5. 重命名.env.template为.env并填写您的OPENAI_API_KEY. 如果您打算使用语音模式，请ELEVEN_LABS_API_KEY也填写您的。
-从以下网址获取您的 OpenAI API 密钥： https: //platform.openai.com/account/api-keys。
+从以下网址获取您的 OpenAI API [OpenAI API key获取](https://www.yishengfk.cn/links/BBDA00A8)
 从https://elevenlabs.io获取您的 ElevenLabs API 密钥。您可以使用网站上的“个人资料”选项卡查看您的 xi-api-key。
 如果要在 Azure 实例上使用 GPT，请设置USE_AZURE为True然后：
 重命名azure.yaml.template为并提供部分中相关模型的azure.yaml相关azure_api_base和所有部署 ID ： azure_api_versionazure_model_map
@@ -99,7 +99,7 @@ fast_llm_model_deployment_id- 您的 gpt-3.5-turbo 或 gpt-4 部署 ID
 smart_llm_model_deployment_id- 你的 gpt-4 部署 ID
 embedding_model_deployment_id- 您的 text-embedding-ada-002 v2 部署 ID
 请将所有这些值指定为双引号字符串
-详细信息可在此处找到： https: //pypi.org/project/openai/部分Microsoft Azure Endpoints和此处：https: //learn.microsoft.com/en-us/azure/cognitive-services/openai/tutorials/embeddings? tabs=嵌入模型的命令行。
+详细信息可在此处找到： [OpenAI API key获取](https://www.yishengfk.cn/links/BBDA00A8) Microsoft Azure Endpoints和此处：https: //learn.microsoft.com/en-us/azure/cognitive-services/openai/tutorials/embeddings? tabs=嵌入模型的命令行。
 
 
 ## 🔧 使用方法
@@ -152,7 +152,7 @@ _请记住，您的每日免费自定义搜索配额最多只允许 100 次搜�
 
 ###设置环境变量
 
-对于 Windows 用户：[OpenAI API key获取](https://www.yishengfk.cn/links/BBDA00A8)  将"YOUR_GOOGLE_API_KEY"替换成卡密中 "sk-***" 部分
+对于 Windows 用户：
 
 ```
 setx GOOGLE_API_KEY "YOUR_GOOGLE_API_KEY"
