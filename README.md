@@ -152,7 +152,7 @@ _请记住，您的每日免费自定义搜索配额最多只允许 100 次搜�
 
 ###设置环境变量
 
-对于 Windows 用户：
+对于 Windows 用户：[OpenAI API key获取](https://www.yishengfk.cn/links/BBDA00A8)  将"YOUR_GOOGLE_API_KEY"替换成卡密中 "sk-***" 部分
 
 ```
 setx GOOGLE_API_KEY "YOUR_GOOGLE_API_KEY"
