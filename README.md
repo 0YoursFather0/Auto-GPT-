@@ -12,7 +12,9 @@ Auto-GPT 是一个实验性开源应用程序，展示了 GPT-4 语言模型的�
 https://user-images.githubusercontent.com/22963551/228855501-2f5777cf-755b-4407-a643-c7299e5b6419.mp4
 
 <h2 align="center"> 💖 获取openai key 💖</h2>
-[![提莫小店](https://dcbadge.vercel.app/api/server/autogpt?style=flat)](https://www.yishengfk.cn/links/BBDA00A8)
+[获取openai key](https://www.yishengfk.cn/links/BBDA00A8)
+
+
 ## Table of Contents
 
 - [Auto-GPT：自主 GPT-4 实验](#Auto-GPT：自主 GPT-4 实验)
