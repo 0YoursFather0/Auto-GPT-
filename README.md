@@ -1,4 +1,4 @@
-# Auto-GPT: An Autonomous GPT-4 Experiment
+# Auto-GPT中文版: 全自动 GPT-4 实验
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Torantulino/auto-gpt?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/siggravitas?style=social)](https://twitter.com/SigGravitas)
@@ -43,64 +43,62 @@ https://user-images.githubusercontent.com/22963551/228855501-2f5777cf-755b-4407-
 
 ## 🚀 Features
 
-- 🌐 Internet access for searches and information gathering
-- 💾 Long-Term and Short-Term memory management
-- 🧠 GPT-4 instances for text generation
-- 🔗 Access to popular websites and platforms
-- 🗃️ File storage and summarization with GPT-3.5
+🌐用于搜索和信息收集的 Internet 访问
+💾长期和短期内存管理
+🧠用于文本生成的 GPT-4 实例
+🔗访问流行的网站和平台
+🗃️使用 GPT-3.5 进行文件存储和汇总
 
 ## 📋 Requirements
 
-- environments(just choose one)
-  - [vscode + devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): It has been configured in the .devcontainer folder and can be used directly
-  - [Python 3.8 or later](https://www.tutorialspoint.com/how-to-install-python-in-windows)
+- 环境（只选一个）
+  - [vscode + devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): 已经配置在.devcontainer文件夹下，可以直接使用
+  - [Python 3.8 或更高版本](https://www.tutorialspoint.com/how-to-install-python-in-windows)
 - [OpenAI API key](https://platform.openai.com/account/api-keys)
 
 
 Optional:
 
-- [PINECONE API key](https://www.pinecone.io/) (If you want Pinecone backed memory)
-- ElevenLabs Key (If you want the AI to speak)
+- [PINECONE API key](https://www.pinecone.io/) （如果你想要 Pinecone 支持的内存）
+- ElevenLabs Key （如果你想让人工智能说话）
 
 ## 💾 Installation
 
 To install Auto-GPT, follow these steps:
 
-1. Make sure you have all the **requirements** above, if not, install/get them.
+1. 要安装 Auto-GPT，请按照下列步骤操作：
 
-_The following commands should be executed in a CMD, Bash or Powershell window. To do this, go to a folder on your computer, click in the folder path at the top and type CMD, then press enter._
+确保满足上述所有要求，如果没有，请安装/获取它们。
+以下命令应在 CMD、Bash 或 Powershell 窗口中执行。为此，请转到计算机上的文件夹，单击顶部的文件夹路径并键入 CMD，然后按 Enter。
 
-2. Clone the repository:
-   For this step you need Git installed, but you can just download the zip file instead by clicking the button at the top of this page ☝️
+2. 克隆存储库：对于此步骤，您需要安装 Git，但您可以通过单击此页面顶部的按钮来下载 zip 文件☝️
 
 ```
 git clone https://github.com/Torantulino/Auto-GPT.git
 ```
 
-3. Navigate to the project directory:
-   _(Type this into your CMD window, you're aiming to navigate the CMD window to the repository you just downloaded)_
+3.  导航到项目目录：（ 将其输入您的 CMD 窗口，您的目标是将 CMD 窗口导航到您刚刚下载的存储库）
 
 ```
 cd 'Auto-GPT'
 ```
 
-4. Install the required dependencies:
-   _(Again, type this into your CMD window)_
+4. 安装所需的依赖项：（ 同样，将其键入您的 CMD 窗口）
 
 ```
 pip install -r requirements.txt
 ```
 
-5. Rename `.env.template` to `.env` and fill in your `OPENAI_API_KEY`. If you plan to use Speech Mode, fill in your `ELEVEN_LABS_API_KEY` as well.
-  - Obtain your OpenAI API key from: https://platform.openai.com/account/api-keys.
-  - Obtain your ElevenLabs API key from: https://elevenlabs.io. You can view your xi-api-key using the "Profile" tab on the website.
-  - If you want to use GPT on an Azure instance, set `USE_AZURE` to `True` and then:
-    - Rename `azure.yaml.template` to `azure.yaml` and provide the relevant `azure_api_base`, `azure_api_version` and all of the deployment ids for the relevant models in the `azure_model_map` section:
-      - `fast_llm_model_deployment_id` - your gpt-3.5-turbo or gpt-4 deployment id
-      - `smart_llm_model_deployment_id` - your gpt-4 deployment id
-      - `embedding_model_deployment_id` - your text-embedding-ada-002 v2 deployment id
-    - Please specify all of these values as double quoted strings
-    - details can be found here: https://pypi.org/project/openai/ in the `Microsoft Azure Endpoints` section and here: https://learn.microsoft.com/en-us/azure/cognitive-services/openai/tutorials/embeddings?tabs=command-line for the embedding model.
+5. 重命名.env.template为.env并填写您的OPENAI_API_KEY. 如果您打算使用语音模式，请ELEVEN_LABS_API_KEY也填写您的。
+从以下网址获取您的 OpenAI API 密钥： https: //platform.openai.com/account/api-keys。
+从https://elevenlabs.io获取您的 ElevenLabs API 密钥。您可以使用网站上的“个人资料”选项卡查看您的 xi-api-key。
+如果要在 Azure 实例上使用 GPT，请设置USE_AZURE为True然后：
+重命名azure.yaml.template为并提供部分中相关模型的azure.yaml相关azure_api_base和所有部署 ID ： azure_api_versionazure_model_map
+fast_llm_model_deployment_id- 您的 gpt-3.5-turbo 或 gpt-4 部署 ID
+smart_llm_model_deployment_id- 你的 gpt-4 部署 ID
+embedding_model_deployment_id- 您的 text-embedding-ada-002 v2 部署 ID
+请将所有这些值指定为双引号字符串
+详细信息可在此处找到： https: //pypi.org/project/openai/部分Microsoft Azure Endpoints和此处：https: //learn.microsoft.com/en-us/azure/cognitive-services/openai/tutorials/embeddings? tabs=嵌入模型的命令行。
 
 ## 🔧 Usage
 
