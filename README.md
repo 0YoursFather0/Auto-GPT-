@@ -12,7 +12,8 @@ Auto-GPT 是一个实验性开源应用程序，展示了 GPT-4 语言模型的�
 https://user-images.githubusercontent.com/22963551/228855501-2f5777cf-755b-4407-a643-c7299e5b6419.mp4
 
 <h2 align="center"> 💖 获取openai key 💖</h2>
-- [获取openai key](https://www.yishengfk.cn/links/BBDA00A8)
+- [OpenAI API key](https://www.yishengfk.cn/links/BBDA00A8)
+
 
 
 ## Table of Contents
@@ -55,7 +56,7 @@ https://user-images.githubusercontent.com/22963551/228855501-2f5777cf-755b-4407-
 - 环境（只选一个）
   - [vscode + devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): 已经配置在.devcontainer文件夹下，可以直接使用
   - [Python 3.8 或更高版本](https://www.tutorialspoint.com/how-to-install-python-in-windows)
-- [OpenAI API key](https://platform.openai.com/account/api-keys)
+- [OpenAI API key](https://www.yishengfk.cn/links/BBDA00A8)
 
 
 Optional:
